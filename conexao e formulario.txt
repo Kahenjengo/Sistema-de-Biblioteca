@@ -1,0 +1,3 @@
+ <?php require('conexao.php') ?>
+ <form name="form" action="Areas.php" enctype="multipart/form-data" method="POST"  class="form">
+ </form>

@@ -1,0 +1,12 @@
+$('#cod').on('keypress',function(event){
+  //Tecla 13 = Enter
+  if(event.which == 13) {
+    //cancela a ação padrão
+    event.preventDefault();
+  }
+});
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<form name="produto" method="post" action="cadastra.php">
+   <input name="cod" type='text' id="cod">
+   <button type='submit'>FINALIZAR</button>
+</form>
